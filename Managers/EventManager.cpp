@@ -19,12 +19,3 @@ void EventManager::startTracking(WnckScreen *trackingScreen) {
 
 void EventManager::stopTracking() {
 }
-
-void EventManager::initKeyboardTracking() {
-}
-
-void EventManager::initNetworkTracking() {
-}
-
-void EventManager::initWindowTracking() {
-}

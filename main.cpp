@@ -6,7 +6,7 @@
 #include <libwnck/libwnck.h>
 // Yardstick
 #include "UI/TrackerWindow.h"
-#include "EventManager.h"
+#include "Managers/EventManager.h"
 
 int main (int argc, char **argv)  {
     GtkApplication *app;

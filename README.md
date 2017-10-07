@@ -5,10 +5,10 @@ A small application to help keep yourself on track and stop wasting time with di
 # Build Details
 
 ### Dependencies 
-GTK+
-libwnck
+* GTK+
+* libwnck
 
-Linux:
-- sudo apt-get install build-essential libgtk2.0-dev 
-- sudo apt-get install libgtk-3-dev
-- sudo apt-get install libwnck-3-dev
+### Dev Instructions
+
+Linux [Debian]:
+- sudo apt-get install build-essential libgtk2.0-dev libgtk-3-dev libwnck-3-dev  

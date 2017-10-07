@@ -5,7 +5,7 @@
 #ifndef YARDSTICK_EVENTMANAGER_H
 #define YARDSTICK_EVENTMANAGER_H
 
-#include "Trackers/ActiveWindowTracker.h"
+#include "../Trackers/ActiveWindowTracker.h"
 #include <gtk/gtk.h>
 #include <libwnck/libwnck.h>
 
@@ -20,9 +20,6 @@ public:
 private:
     GtkApplication *appReference;
     ActiveWindowTracker *activeWindowTracker;
-    void initWindowTracking();
-    void initKeyboardTracking();
-    void initNetworkTracking();
 };
 
 

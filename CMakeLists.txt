@@ -3,7 +3,7 @@ project(yardstick)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp UI/TrackerWindow.cpp UI/TrackerWindow.h Trackers/ActiveWindowTracker.cpp Trackers/ActiveWindowTracker.h Trackers/NetworkActivityTracker.cpp Trackers/NetworkActivityTracker.h EventManager.cpp EventManager.h)
+set(SOURCE_FILES main.cpp UI/TrackerWindow.cpp UI/TrackerWindow.h Trackers/ActiveWindowTracker.cpp Trackers/ActiveWindowTracker.h Trackers/NetworkActivityTracker.cpp Trackers/NetworkActivityTracker.h Managers/EventManager.cpp Managers/EventManager.h)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GTK3 REQUIRED gtk+-3.0)
